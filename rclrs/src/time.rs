@@ -1,4 +1,5 @@
 use crate::rcl_bindings::*;
+use crate::vendor::builtin_interfaces;
 use std::num::TryFromIntError;
 use std::ops::{Add, Sub};
 use std::sync::{Mutex, Weak};
